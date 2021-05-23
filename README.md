@@ -19,17 +19,17 @@ Notes:
 2) This is a Maven-based project.
 3) Dependencies used in this project. Added in the pom.xml file.
 
-4) Dependencies to be downloaded from https://mvnrepository.com site.
-<groupId>
-			io.rest-assured
-			org.testng
-			com.googlecode.json-simple
-			org.apache.poi  --> for poi
-			org.apache.poi ---> for poi-ooxml
-</groupId>
+4) Dependencies to be downloaded from https://mvnrepository.com site. <br>
+a) io.rest-assured ---> Java DSL for easy testing of REST services <br>
+b) org.testng ---> Testing framework for Java  <br>
+c) com.googlecode.json-simple ---> A simple Java toolkit for JSON  <br>
+d) org.apache.poi  --> for poi  <br>
+e) org.apache.poi ---> for poi-ooxml  <br>
+
+ 
  
 5) TestNG for assertions
 
 **Limitations of the API Requests being made:**
 1) In the Free subscription of API request, we are able to get only 1 day’s[Current Date's] temperature details for Sydney.
-2) Could perform Assertions only if the temperature is greater than 20 degrees and Weather is Sunny or not. 
+2) Performed Assertions only if the temperature is greater than 20 degrees and Weather is Sunny or not. 
