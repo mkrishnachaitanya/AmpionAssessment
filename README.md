@@ -5,7 +5,7 @@ AmpionAssessment
 
 2) APPID (API Key to uniquely identify the request from an Authenticated Source): 586214337c85e7920184b60aa32ebee2 [Please do not share this key with unauthorized people].
 
-3) Requirement: "Number of days" the weather is predicted to be sunny with temperatures above 20 degrees in the next 5 days for the city Sydney.
+3) Requirement: "Number of days" the weather is predicted to be "Sunny" with "temperatures above 20 degrees" in the "next 5 days" for the city "Sydney".
 
 Pre-requisites:
 1) Java should be installed on our Windows 10 machine (if we are running this from our local machine).
@@ -31,5 +31,5 @@ Notes:
 5) TestNG for assertions
 
 **Limitations of the API Requests being made:**
-1) In the Free subscription of App, we are able to get only 1 day’s[today’s] temperature details for Sydney.
+1) In the Free subscription of API request, we are able to get only 1 day’s[Current Date's] temperature details for Sydney.
 2) Could perform Assertions only if the temperature is greater than 20 degrees and Weather is Sunny or not. 
