@@ -32,4 +32,5 @@ e) org.apache.poi ---> for poi-ooxml  <br>
 
 **Limitations of the API Requests being made:**
 1) In the Free subscription of API request, we are able to get only 1 day’s[Current Date's] temperature details for Sydney.
-2) Performed Assertions only if the temperature is greater than 20 degrees and Weather is Sunny or not. 
+2) Performed Assertions to check if the API Response contains the name of the State and also the Country name (that we have given as input).
+3) Performed validations if the current day's temperature is greater than 20 degrees and the weather type is Sunny.
